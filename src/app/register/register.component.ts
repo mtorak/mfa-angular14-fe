@@ -37,5 +37,5 @@ export class RegisterComponent implements OnInit {
         console.log(this.mfaRes);
       });
   }
-  
+
 }
