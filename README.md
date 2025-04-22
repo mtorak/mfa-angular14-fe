@@ -1,6 +1,5 @@
 # Mfaapplication
-
-https://dev.to/amailath/securing-your-app-totp-authentication-with-spring-boot-and-angular-part-one-overview-project-setup-1f3f
+https://medium.com/@anbuathypathy/securing-your-app-totp-authentication-with-spring-boot-and-angular-part-one-overview-c59b7ea87ee9 <br>
 
 Application developed using Angular 14 and Bootstrap.
 
