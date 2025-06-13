@@ -7,11 +7,12 @@ import { HomeService } from './home.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  message: string="";
+  
+  message: string = "";
   constructor(private homeService: HomeService) { }
 
   ngOnInit(): void {
-    this.homeService.getProtectedString().subscribe(s=> this.message =s);
+    this.homeService.getProtectedString().subscribe(s => this.message = s);
   }
 
 }

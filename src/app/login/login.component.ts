@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
   constructor(private authenticationClient: AuthClientService,
     private authService: AuthService) {
     if (this.authService.isLoggedIn())
-      this.authService.navidateToHome();
+      this.authService.navigateToHome();
   }
 
   ngOnInit(): void {

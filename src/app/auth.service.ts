@@ -18,7 +18,7 @@ export class AuthService {
     }
   }
 
-  public navidateToHome(): void {
+  public navigateToHome(): void {
     this.router.navigate(['/']);
   }
 
